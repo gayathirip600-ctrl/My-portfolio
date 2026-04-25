@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio – Gayathiri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-transition" id="pageTransition"></div>
+
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h2 class="logo">Gaya<span>3</span></h2>
+        <div class="menu" id="menu">
+            <a href="#hero" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About Me</a>
+            <a href="#skills" class="nav-link">My Skills</a>
+            <a href="#certify" class="nav-link">Certifications</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="navbar-right">
+            <button class="theme-toggle" id="themeToggle" title="Toggle dark/light mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div id="hero" class="hero-container">
+        <canvas id="particles"></canvas>
+        <div class="hero-text">
+            <p class="l1">Hi, I'm Gayathiri</p>
+            <div class="hero-roles">
+                <span class="role">Frontend Developer</span>
+                <span class="divider">|</span>
+                <span class="role">Java Backend</span>
+                <span class="divider">|</span>
+                <span class="role">Database Development</span>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="img2.jpeg" alt="Gayathiri's photo" />
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h1>About&nbsp;<span>Me</span></h1>
+        <div class="about-inner">
+            <img src="img2.jpeg" alt="Gayathiri" />
+            <div class="box">
+                <p>I'm Gayathiri, a passionate Front-End and Java Developer with a strong academic background,
+                    having completed my Bachelor of Computer Applications (BCA). I have earned certifications
+                    in Core Java and Front-End Development, and I am currently expanding my skills in backend
+                    development using Spring Boot.</p>
+                <p style="margin-top:12px;">I enjoy building modern, responsive web applications using HTML, CSS,
+                    JavaScript, and Java. As a fresher, I am eager to learn, grow, and contribute to real-world
+                    projects while continuously improving my technical and problem-solving skills.</p>
+                <a href="Gayathiri_Resume.pdf" download class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+        <h1>My&nbsp;<span>Skills</span></h1>
+        <div class="skills-grid">
+
+            <div class="b1">
+                <h2>Programming Languages</h2>
+                <div class="skills-icons">
+                    <div class="skill-item">
+                        <img src="java.jpeg" alt="Java">
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="c.jpeg" alt="C">
+                        <span>Basic C</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="r.jpeg" alt="R">
+                        <span>Basic R</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="b2">
+                <h2>Web Development</h2>
+                <div class="skills-icons">
+                    <div class="skill-item">
+                        <img src="html.jpeg" alt="HTML">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="css.jpeg" alt="CSS">
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="js.jpeg" alt="JavaScript">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="bs.jpeg" alt="Bootstrap">
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certify" class="certify">
+        <h1>My&nbsp;<span>Certifications</span></h1>
+
+        <div class="cert-grid">
+            <!-- Row 1: Card 1 left | Card 2 right -->
+            <div class="cert-card cert-landscape">
+                <img src="java.jpg" alt="Java certification – Elevate">
+                <div class="cert-label">Java Programming – Elevate</div>
+            </div>
+            <div class="cert-card cert-bottom-vertical">
+                <img src="JAVA1.jpg" alt="Java certification – T4Tech">
+                <div class="cert-label">Java Course – T4Tech Solutions</div>
+            </div>
+            <!-- Row 2: Card 3 vertical | Card 4 landscape side by side -->
+            <div class="cert-card cert-bottom-vertical">
+                <img src="frontend.jpg" alt="Frontend Development certification">
+                <div class="cert-label">Frontend Development (HTML, CSS, JS, Bootstrap)</div>
+            </div>
+            <div class="cert-card cert-bottom-landscape">
+                <img src="intern.jpg" alt="React.js internship – Livewire">
+                <div class="cert-label">React.js Basics Internship – Livewire</div>
+            </div>
+        </div>
+
+        <div class="academics">
+            <h2><span>Academic</span>&nbsp;Achievements</h2>
+            <div class="acad-grid">
+                <div class="cert-card">
+                    <img src="SE.jpg" alt="Software Engineering achievement">
+                    <div class="cert-label">2nd Highest Mark – Software Engineering</div>
+                </div>
+                <div class="cert-card">
+                    <img src="DM.jpg" alt="Digital Marketing achievement">
+                    <div class="cert-label">2nd Highest Mark – Digital Marketing</div>
+                </div>
+                <div class="cert-card">
+                    <img src="c.jpg" alt="C# achievement">
+                    <div class="cert-label">2nd Highest Mark – C#</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h1>Contact&nbsp;<span>Me</span></h1>
+        <div class="b10">
+            <form id="contact-form" class="my-form">
+                <input type="text" name="name" placeholder="Enter your name">
+                <input type="email" name="email" placeholder="Enter your email">
+                <input type="number" name="phone" placeholder="Enter your phone number">
+                <textarea name="message" placeholder="Type your message..."></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("5uXwFAYnuA_zky4yq");
+        })();
+
+        document.getElementById("contact-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            emailjs.sendForm("service_ckrhwie", "template_smkqy9l", this)
+                .then(function (response) {
+                    console.log("SUCCESS:", response.status, response.text);
+                    alert("Message Sent Successfully!");
+                }, function (error) {
+                    console.log("FAILED:", JSON.stringify(error));
+                    alert("Failed to send: " + (error.text || error.message || JSON.stringify(error)));
+                });
+        });
+
+        // ── Hamburger ──
+        const hamburger = document.getElementById("hamburger");
+        const menu = document.getElementById("menu");
+        hamburger.addEventListener("click", function () {
+            menu.classList.toggle("open");
+            hamburger.classList.toggle("active");
+        });
+
+        // ── Nav: active highlight + flash transition ──
+        const navLinks = document.querySelectorAll(".nav-link");
+        const pageTransition = document.getElementById("pageTransition");
+        const sections = document.querySelectorAll("section, #hero");
+
+        function setActiveLink(id) {
+            navLinks.forEach(l => {
+                l.classList.toggle("active-link", l.getAttribute("href") === "#" + id);
+            });
+        }
+
+        // Intersection observer to auto-highlight active section
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) setActiveLink(entry.target.id);
+            });
+        }, { threshold: 0.4 });
+        sections.forEach(s => sectionObserver.observe(s));
+
+        navLinks.forEach(link => {
+            link.addEventListener("click", (e) => {
+                // Flash transition
+                pageTransition.classList.add("flash");
+                setTimeout(() => pageTransition.classList.remove("flash"), 500);
+
+                menu.classList.remove("open");
+                hamburger.classList.remove("active");
+            });
+        });
+
+        // ── Dark / Light mode ──
+        const themeToggle = document.getElementById("themeToggle");
+        const themeIcon = themeToggle.querySelector(".theme-icon");
+        let isDark = true;
+        themeToggle.addEventListener("click", function () {
+            isDark = !isDark;
+            document.body.classList.toggle("light-mode", !isDark);
+            themeIcon.textContent = isDark ? "🌙" : "☀️";
+        });
+
+        // ── Typing effect on l1 ──
+        const l1 = document.querySelector(".l1");
+        const fullText = "Hi, I'm Gayathiri";
+        l1.textContent = "";
+        l1.style.opacity = 1;
+        l1.style.transform = "none";
+        let i = 0;
+        function typeWriter() {
+            if (i < fullText.length) {
+                l1.textContent += fullText.charAt(i);
+                i++;
+                setTimeout(typeWriter, 70);
+            } else {
+                l1.innerHTML = "Hi, I'm <span class='typed-name'>Gayathiri</span><span class='cursor'>|</span>";
+            }
+        }
+        setTimeout(typeWriter, 400);
+
+        // ── Scroll reveal ──
+        const revealEls = document.querySelectorAll(".about-inner, .b1, .b2, .cert-card, .footer-brand, .footer-links, .footer-contact");
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("revealed");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.15 });
+        revealEls.forEach(el => {
+            el.classList.add("reveal-hidden");
+            observer.observe(el);
+        });
+
+        // ── Floating particles canvas ──
+        const canvas = document.getElementById("particles");
+        const ctx = canvas.getContext("2d");
+        let W = canvas.width = window.innerWidth;
+        let H = canvas.height = window.innerHeight;
+        window.addEventListener("resize", () => {
+            W = canvas.width = window.innerWidth;
+            H = canvas.height = window.innerHeight;
+        });
+        const particles = Array.from({ length: 60 }, () => ({
+            x: Math.random() * W,
+            y: Math.random() * H,
+            r: Math.random() * 2 + 1,
+            dx: (Math.random() - 0.5) * 0.5,
+            dy: (Math.random() - 0.5) * 0.5,
+            alpha: Math.random() * 0.5 + 0.2
+        }));
+        function drawParticles() {
+            ctx.clearRect(0, 0, W, H);
+            particles.forEach(p => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(153, 41, 234, ${p.alpha})`;
+                ctx.fill();
+                p.x += p.dx;
+                p.y += p.dy;
+                if (p.x < 0 || p.x > W) p.dx *= -1;
+                if (p.y < 0 || p.y > H) p.dy *= -1;
+            });
+            // Draw connecting lines
+            particles.forEach((a, i) => {
+                particles.slice(i + 1).forEach(b => {
+                    const dist = Math.hypot(a.x - b.x, a.y - b.y);
+                    if (dist < 120) {
+                        ctx.beginPath();
+                        ctx.moveTo(a.x, a.y);
+                        ctx.lineTo(b.x, b.y);
+                        ctx.strokeStyle = `rgba(153, 41, 234, ${0.15 * (1 - dist / 120)})`;
+                        ctx.lineWidth = 0.6;
+                        ctx.stroke();
+                    }
+                });
+            });
+            requestAnimationFrame(drawParticles);
+        }
+        drawParticles();
+
+        // ── Navbar shrink on scroll ──
+        window.addEventListener("scroll", () => {
+            const navbar = document.querySelector(".navbar");
+            navbar.classList.toggle("scrolled", window.scrollY > 50);
+        });
+    </script>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="logo-text">Gaya<span>3</span></div>
+                <p>Frontend Developer &amp; Java Backend enthusiast, building modern web experiences.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#certify">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Get In Touch</h4>
+                <p> <span>gayathirip600@gmail.com</span></p>
+                <p> <span>Chennai, Tamil Nadu</span></p>
+                <div class="footer-socials">
+                    <a href="https://www.linkedIn.com/in/gayathiri-p-787321373/" title="LinkedIn">in</a>
+                    <!-- <a href="#" title="GitHub"></a> -->
+                    <a href="mailto:gaya3thirip@gmail.com" title="Email">&#9993;</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 <span>Gayathiri P</span>. All rights reserved. Built with &#10084; using HTML, CSS &amp;
+            JavaScript.
+        </div>
+    </footer>
+
+</body>
+
+</html>
