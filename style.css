@@ -70,8 +70,6 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: 700;
-<<<<<<< HEAD
-=======
     animation: logoPop 0.7s cubic-bezier(0.22,1,0.36,1) forwards;
     cursor: default;
     user-select: none;
@@ -81,13 +79,10 @@ body {
     0%   { opacity: 0; transform: scale(0.6) rotate(-8deg); }
     70%  { transform: scale(1.08) rotate(2deg); }
     100% { opacity: 1; transform: scale(1) rotate(0deg); }
->>>>>>> 51394b3 (updated portfolio)
 }
 
 .logo span {
     color: var(--accent);
-<<<<<<< HEAD
-=======
     display: inline-block;
     animation: logoSpinGlow 3s ease-in-out 0.7s infinite;
     transform-origin: center;
@@ -98,7 +93,6 @@ body {
     25%      { text-shadow: 0 0 16px rgba(153,41,234,1), 0 0 40px rgba(153,41,234,0.6); transform: scale(1.2) rotate(-10deg); }
     50%      { text-shadow: 0 0 24px rgba(153,41,234,1), 0 0 60px rgba(153,41,234,0.8); transform: scale(1.3) rotate(10deg); }
     75%      { text-shadow: 0 0 16px rgba(153,41,234,1), 0 0 40px rgba(153,41,234,0.6); transform: scale(1.2) rotate(-5deg); }
->>>>>>> 51394b3 (updated portfolio)
 }
 
 /* Right side wrapper: holds theme toggle + hamburger */
@@ -285,11 +279,7 @@ body {
 }
 
 .l1 {
-<<<<<<< HEAD
-    font-family: 'Poppins', sans-serif;
-=======
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
->>>>>>> 51394b3 (updated portfolio)
     font-size: clamp(40px, 5vw, 65px);
     color: var(--text);
     font-weight: 700;
@@ -298,10 +288,7 @@ body {
     animation: slideFromLeft 1s ease forwards;
     margin-bottom: 32px;
     padding-left: 20px;
-<<<<<<< HEAD
-=======
     letter-spacing: 0.5px;
->>>>>>> 51394b3 (updated portfolio)
 }
 
 .l2,
@@ -357,22 +344,14 @@ body {
 }
 
 /* Role text shimmer on hover */
-<<<<<<< HEAD
-.hero-roles:hover .role {
-=======
 .role:hover {
->>>>>>> 51394b3 (updated portfolio)
     background: linear-gradient(90deg, var(--text) 0%, #9929EA 50%, var(--text) 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-<<<<<<< HEAD
-    animation: shimmer 1.8s linear infinite;
-=======
     animation: roleSlideUp 0s, shimmer 1.8s linear infinite !important;
     cursor: default;
->>>>>>> 51394b3 (updated portfolio)
 }
 @keyframes shimmer {
     to { background-position: 200% center; }
@@ -421,33 +400,6 @@ body {
     color: #9929EA;
 }
 
-<<<<<<< HEAD
-/* Hero roles horizontal row */
-.hero-roles {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 16px;
-    padding-left: 20px;
-}
-
-.role {
-    font-family: 'Poppins', sans-serif;
-    font-size: clamp(14px, 1.8vw, 20px);
-    color: var(--text);
-    font-weight: 500;
-    opacity: 0;
-    transform: translateY(20px) skewX(-5deg);
-    animation: roleSlideUp 0.6s ease forwards;
-}
-
-.role:nth-child(1) { animation-delay: 0.8s; }
-.role:nth-child(3) { animation-delay: 1.1s; }
-.role:nth-child(5) { animation-delay: 1.4s; }
-
-.divider {
-=======
 /* =============================================
    SECTION ENTRANCE ANIMATIONS
    ============================================= */
@@ -528,18 +480,10 @@ body {
 }
 
 .role-divider {
->>>>>>> 51394b3 (updated portfolio)
     color: #9929EA;
     font-size: clamp(16px, 2vw, 24px);
     font-weight: 300;
     opacity: 0;
-<<<<<<< HEAD
-    animation: fadeIn 0.4s ease forwards;
-}
-
-.divider:nth-child(2) { animation-delay: 1.0s; }
-.divider:nth-child(4) { animation-delay: 1.3s; }
-=======
     margin: 0 10px;
     animation: fadeIn 0.4s ease forwards;
 }
@@ -558,13 +502,10 @@ body {
 
 /* role-1, role-2, role-3 use base .role styles — no overrides needed */
 
->>>>>>> 51394b3 (updated portfolio)
 
 @keyframes roleSlideUp {
     to { opacity: 1; transform: translateY(0) skewX(0deg); }
 }
-<<<<<<< HEAD
-=======
 
 /* =============================================
    HERO SOCIAL ICONS — floating below roles
@@ -691,7 +632,6 @@ body {
     from { opacity:0; transform: translateX(60px); }
     to   { opacity:1; transform: translateX(0); }
 }
->>>>>>> 51394b3 (updated portfolio)
 @keyframes fadeIn {
     to { opacity: 1; }
 }
@@ -709,8 +649,6 @@ body {
 
 .typed-name {
     color: #9929EA;
-<<<<<<< HEAD
-=======
     display: inline-block;
     animation: nameGlow 2.5s ease-in-out infinite;
     text-shadow: 0 0 20px rgba(153,41,234,0.5);
@@ -762,7 +700,6 @@ body {
     55%  { transform: scale(1.12) translateY(-8px); }
     75%  { transform: scale(0.96) translateY(4px); }
     100% { opacity: 1; transform: scale(1) translateY(0); }
->>>>>>> 51394b3 (updated portfolio)
 }
 
 /* =============================================
@@ -826,19 +763,6 @@ body {
 .btn {
     display: inline-block;
     margin-top: 20px;
-<<<<<<< HEAD
-    padding: 14px 28px;
-    background-color:#9929EA;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: black;
-=======
     padding: 14px 36px;
     background: linear-gradient(135deg, #9929EA 0%, #bf5fff 50%, #9929EA 100%);
     background-size: 200% auto;
@@ -885,7 +809,6 @@ body {
     transform: translateY(-4px) scale(1.05);
     box-shadow: 0 12px 36px rgba(153,41,234,0.7);
     background-position: right center;
->>>>>>> 51394b3 (updated portfolio)
 }
 
 /* =============================================
@@ -917,16 +840,9 @@ body {
 .b2 {
     background-color: var(--card-bg);
     border-radius: 30px;
-<<<<<<< HEAD
-    padding: 40px 36px;
-    flex: 1 1 340px;
-    max-width: 500px;
-    min-height: 320px;
-=======
     padding: 32px 32px 36px;
     flex: 1 1 300px;
     max-width: 480px;
->>>>>>> 51394b3 (updated portfolio)
     transition: transform 0.3s ease, background-color 0.3s;
 }
 
@@ -940,32 +856,18 @@ body {
 .b2 h2 {
     color: var(--text);
     text-align: center;
-<<<<<<< HEAD
-    margin-bottom: 28px;
-    font-size: 22px;
-=======
     margin-bottom: 26px;
     font-size: 20px;
->>>>>>> 51394b3 (updated portfolio)
     font-weight: 700;
     letter-spacing: 0.3px;
 }
 
-<<<<<<< HEAD
-/* Programming Languages box — 2-col icon+label grid like screenshot */
-.b1 .skills-icons {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px 16px;
-    justify-items: start;
-=======
 /* Programming Languages & Frameworks — 3-col grid */
 .b1 .skills-icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 22px 14px;
     justify-items: center;
->>>>>>> 51394b3 (updated portfolio)
 }
 
 .b1 .skill-item {
@@ -974,30 +876,12 @@ body {
     align-items: center;
     gap: 8px;
     color: var(--text);
-<<<<<<< HEAD
-    font-size: 13px;
-=======
     font-size: 12px;
->>>>>>> 51394b3 (updated portfolio)
     font-family: 'Poppins', sans-serif;
     width: 100%;
     text-align: center;
 }
 
-<<<<<<< HEAD
-/* Center last odd skill item spanning both columns */
-.b1 .skills-icons .skill-item:last-child:nth-child(odd) {
-    grid-column: 1 / -1;
-    justify-self: center;
-    max-width: 50%;
-}
-
-/* Web Development box — row of icons */
-.b2 .skills-icons {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px 16px;
-=======
 .b1 .skills-icons .skill-item.skill-center-row { justify-self: center; }
 .b1 .skills-icons .skill-item:last-child:nth-child(odd),
 .b1 .skills-icons .skill-item.skill-canva-center {
@@ -1012,7 +896,6 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 22px 14px;
     justify-items: center;
->>>>>>> 51394b3 (updated portfolio)
 }
 
 .b2 .skill-item {
@@ -1021,17 +904,11 @@ body {
     align-items: center;
     gap: 8px;
     color: var(--text);
-<<<<<<< HEAD
-    font-size: 13px;
-=======
     font-size: 12px;
->>>>>>> 51394b3 (updated portfolio)
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
-<<<<<<< HEAD
-=======
 /* JavaScript: centered spanning both columns */
 .b2 .skills-icons .skill-js-center {
     grid-column: 1 / -1;
@@ -1039,7 +916,6 @@ body {
     max-width: 50%;
 }
 
->>>>>>> 51394b3 (updated portfolio)
 .b1:hover .skill-item,
 .b2:hover .skill-item {
     color: white;
@@ -1051,13 +927,8 @@ body {
 }
 
 .skill-item img {
-<<<<<<< HEAD
-    width: 90px;
-    height: 90px;
-=======
     width: 78px;
     height: 78px;
->>>>>>> 51394b3 (updated portfolio)
     border-radius: 14px;
     object-fit: contain;
     background-color: white;
@@ -1076,35 +947,21 @@ body {
     font-size: clamp(24px, 4vw, 36px);
 }
 
-<<<<<<< HEAD
-/* New cert layout: card1 landscape | [card2 portrait + card3 portrait] | card4 full-width */
-.cert-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 28px;
-=======
 /* New cert layout: 2-col grid, uniform card sizes */
 .cert-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
->>>>>>> 51394b3 (updated portfolio)
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 60px;
 }
 
-<<<<<<< HEAD
-/* Card 1: standard landscape box */
-.cert-landscape {
-    aspect-ratio: 4 / 3;
-=======
 /* All cert cards: uniform aspect ratio — taller for bigger feel */
 .cert-landscape,
 .cert-bottom-vertical,
 .cert-bottom-landscape {
     aspect-ratio: 3 / 2;
->>>>>>> 51394b3 (updated portfolio)
 }
 
 /* Right stack: two cards same box size as card 1, image vertical inside */
@@ -1149,15 +1006,12 @@ body {
     background-color: #fff;
     overflow: hidden;
     transition: transform 0.4s ease;
-<<<<<<< HEAD
-=======
     cursor: pointer;
 }
 
 a.cert-card {
     display: block;
     text-decoration: none;
->>>>>>> 51394b3 (updated portfolio)
 }
 
 .cert-card:hover {
@@ -1197,11 +1051,7 @@ a.cert-card {
 
 /* Academic sub-section */
 .academics {
-<<<<<<< HEAD
-    max-width: 1600px;
-=======
     max-width: 1200px;
->>>>>>> 51394b3 (updated portfolio)
     margin: 40px auto 0;
     padding: 0 60px;
 }
@@ -1220,13 +1070,6 @@ a.cert-card {
     gap: 32px;
 }
 
-<<<<<<< HEAD
-.acad-grid .cert-card:last-child:nth-child(odd) {
-    grid-column: 1 / -1;
-    max-width: calc(50% - 14px);
-    margin: 0 auto;
-    width: 100%;
-=======
 /* 3rd card (odd last child) — centered in its own row, same size as others */
 .acad-grid .cert-card:last-child:nth-child(odd) {
     grid-column: 1 / -1;
@@ -1239,7 +1082,6 @@ a.cert-card {
 /* All academic cards match cert card size */
 .acad-grid .cert-card {
     aspect-ratio: 3 / 2;
->>>>>>> 51394b3 (updated portfolio)
 }
 
 /* =============================================
@@ -1401,8 +1243,6 @@ a.cert-card {
         text-align: center;
     }
 
-<<<<<<< HEAD
-=======
     .hero-roles {
         flex-wrap: wrap;
         justify-content: center;
@@ -1427,7 +1267,6 @@ a.cert-card {
         text-align: center;
     }
 
->>>>>>> 51394b3 (updated portfolio)
     .hero-image {
         justify-content: center;
     }
@@ -1436,28 +1275,6 @@ a.cert-card {
         max-width: 280px;
     }
 
-<<<<<<< HEAD
-    /* About */
-    .about-inner {
-        flex-direction: column;
-        padding: 0 20px;
-        text-align: center;
-        gap: 0;
-    }
-
-    .about img {
-        width: 220px;
-        height: 260px;
-        border-radius: 50px;
-        margin-right: 0;
-        margin-bottom: -40px;
-        z-index: 2;
-    }
-
-    .box {
-        padding: 60px 24px 28px;
-        width: 100%;
-=======
     /* About — mobile card redesign */
     .about-inner {
         flex-direction: column;
@@ -1513,7 +1330,6 @@ a.cert-card {
         text-align: center;
         padding: 12px 20px;
         margin-top: 16px;
->>>>>>> 51394b3 (updated portfolio)
     }
 
     /* Skills */
@@ -1670,9 +1486,6 @@ body.light-mode .footer-contact p {
     color: #9929EA;
     font-size: 16px;
     text-decoration: none;
-<<<<<<< HEAD
-    transition: background-color 0.3s, color 0.3s;
-=======
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
@@ -1681,16 +1494,12 @@ body.light-mode .footer-contact p {
     height: 16px;
     fill: currentColor;
     flex-shrink: 0;
->>>>>>> 51394b3 (updated portfolio)
 }
 
 .footer-socials a:hover {
     background-color:#9929EA;
     color: black;
-<<<<<<< HEAD
-=======
     transform: translateY(-3px) scale(1.1);
->>>>>>> 51394b3 (updated portfolio)
 }
 
 .footer-bottom {
