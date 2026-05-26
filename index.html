@@ -76,7 +76,11 @@
             <!-- Download CV button in hero -->
             <div class="hero-cv seq-hidden" id="heroCv"
                 style="position:relative;z-index:2;margin-top:28px;padding-left:20px;">
+<<<<<<< HEAD
                 <a href="Gayathiri_Resume.pdf.docx" download class="btn">Download CV</a>
+=======
+                <a href="GAYATHIRI_RESUME.docx" download class="btn">Download CV</a>
+>>>>>>> d97fe0298cf38d5b28e30793b05e4513048d962e
             </div>
         </div>
         <div class="hero-image">
@@ -104,6 +108,7 @@
     <!-- SKILLS -->
     <section id="skills" class="skills">
         <h1>My&nbsp;<span>Tech Stack</span></h1>
+<<<<<<< HEAD
 
         <!-- Tab filters -->
         <div class="skills-tabs">
@@ -293,16 +298,70 @@
                     </div>
                     <span class="sk-name">GitHub</span>
                     <span class="sk-badge">Collaboration</span>
+=======
+        <div class="skills-grid">
+
+            <div class="b1">
+                <h2>Programming Languages &amp; Frameworks</h2>
+                <div class="skills-icons">
+                    <div class="skill-item">
+                        <img src="java.jpeg" alt="Java">
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="c.jpeg" alt="C">
+                        <span>Basic C</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="r.jpeg" alt="R">
+                        <span>Basic R</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                            alt="Spring Boot">
+                        <span>Spring Boot</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="bs.jpeg" alt="Bootstrap">
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="b2">
+                <h2>Web Development</h2>
+                <div class="skills-icons b2-icons">
+                    <div class="skill-item">
+                        <img src="html.jpeg" alt="HTML">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="css.jpeg" alt="CSS">
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item skill-js-center">
+                        <img src="js.jpeg" alt="JavaScript">
+                        <span>JavaScript</span>
+                    </div>
+>>>>>>> d97fe0298cf38d5b28e30793b05e4513048d962e
                 </div>
             </div>
 
         </div>
+<<<<<<< HEAD
 
         <!-- Floating skill count -->
         <div class="skills-counter">
             <span id="skillCountNum">14</span> <span class="skills-counter-label">Skills Mastered</span>
         </div>
 
+=======
+>>>>>>> d97fe0298cf38d5b28e30793b05e4513048d962e
     </section>
 
     <!-- CERTIFICATIONS --><!-- updated -->
@@ -477,7 +536,11 @@
         setTimeout(typeWriter, 400);
 
         // ── Scroll reveal ──
+<<<<<<< HEAD
         const revealEls = document.querySelectorAll(".about-inner, .sk-card, .cert-card, .footer-brand, .footer-links, .footer-contact");
+=======
+        const revealEls = document.querySelectorAll(".about-inner, .b1, .b2, .cert-card, .footer-brand, .footer-links, .footer-contact");
+>>>>>>> d97fe0298cf38d5b28e30793b05e4513048d962e
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -552,6 +615,7 @@
         }, { threshold: 0.08 });
         animatedSections.forEach(s => sectionEntranceObserver.observe(s));
 
+<<<<<<< HEAD
         // ── Skills tab filter ──
         const stabs = document.querySelectorAll('.stab');
         const skCards = document.querySelectorAll('.sk-card');
@@ -610,6 +674,9 @@
         });
 
 
+=======
+        // ── Navbar shrink on scroll ──
+>>>>>>> d97fe0298cf38d5b28e30793b05e4513048d962e
         window.addEventListener("scroll", () => {
             const navbar = document.querySelector(".navbar");
             navbar.classList.toggle("scrolled", window.scrollY > 50);
